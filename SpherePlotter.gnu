@@ -128,7 +128,7 @@ if (ANIMATION == 1) {
     system('ffmpeg -framerate 10 -i ./RSPlot/AnimationCacheXZ/XZ%04d.png -vf "palettegen=stats_mode=full" ./RSPlot/Palettes/paletteXZ.png')
     system('ffmpeg -framerate 10 -i ./RSPlot/AnimationCacheXZ/XZ%04d.png -i ./RSPlot/Palettes/paletteXZ.png -filter_complex "paletteuse=dither=sierra2_4a" -loop 0 ./RSPlot/XZ.gif')
     } else {
-        system("Incompatible filetype selected - Please change it in SpherePloter.gnu line 5" or add a new ffmpeg script past line 111")
+        system("Incompatible filetype selected - Please change it in SpherePloter.gnu line 5 or add a new ffmpeg script past line 111")
     }
 }
 system("rm -rf ./RSPlot/Palettes/")
