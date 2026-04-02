@@ -6,6 +6,6 @@ by default, this is designed for a datafile containing 4 or more columns, being:
   2) x data
   3) y data
   4) z data
-  >4) Whatever else
+  >4+) Whatever else
 
 Enjoy!
